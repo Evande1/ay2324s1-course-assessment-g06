@@ -81,8 +81,8 @@ steps:
   "--allow-unauthenticated"
   ]
 
-# options:
-#   logging: CLOUD_LOGGING_ONLY
+options:
+  logging: CLOUD_LOGGING_ONLY
 # Images to store in Container Registry
 images:
 - 'gcr.io/$PROJECT_ID/user-service:$COMMIT_SHA'
